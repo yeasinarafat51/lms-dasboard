@@ -1,16 +1,28 @@
 
-import { RouterProvider } from 'react-router-dom';
-import './App.css';
-import router from './routes/Routes';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import TopNavbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+import Dashboard from "./pages/Dashboard";
 
-function App() {
-  return (
-    <div className='max-w-[1440px] mx-auto'>
-      <RouterProvider router={router}></RouterProvider>
-
+const App = () => (
+  <Router>
+    <div className="flex h-screen">
+      <Sidebar />
+      <div className="flex-1">
+        <TopNavbar />
+        <div className="p-4">
+          <Routes>
+            <Route path="/dashboard" element={<Dashboard/>} />
+            {/* <Route path="/courses" element={<Courses />} />
+            <Route path="/students" element={<Students />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/settings" element={<Settings />} /> */}
+          </Routes>
+        </div>
+      </div>
     </div>
-  );
-}
+  </Router>
+);
 
 export default App;
