@@ -2,14 +2,18 @@ import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import icon from '../imgs/Command.png'
 import f from '../imgs/Frame 47622.png'
+import notification from '../imgs/Notifications.png'
+import avatar from '../imgs/Frame 5518.png'
+import { PiCaretDownBold } from "react-icons/pi";
+// import caretdown from '../imgs/CaretDown.png'
 
 const TopNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white text-black p-4">
+    <nav className="bg-white text-black p-4 border-b-2 bottom-2 border-b-[#E4E4E4]">
       <div className="container mx-auto flex justify-between items-center">
-      <div className="w-[335px] h-[39px] border-[#FF4B00] border-2 flex items-center rounded-md  p-2  max-w-md">
+      <div className="md:w-[335px] h-[39px] border-[#FF4B00] border-2 flex items-center rounded-md  p-2  max-w-md">
       {/* Search Icon */}
       <span className=" px-3 text-[#FF4B00]">
         <FiSearch size={20} />
@@ -24,13 +28,17 @@ const TopNavbar = () => {
       <img className="pr-4" src={icon} alt="" />
       <img src={f} alt="" />
     </div>
+    <div className="flex items-center gap-4">
+        <img src={notification} alt="" />
+        <img src={avatar} alt="" />
+        <p className="text-[13px] font-semibold font-Inter">Harsh</p>
+        <PiCaretDownBold />
+        {/* <RxCaretDown /> */}
+        {/* <img src={caretdown} alt="" /> */}
+    </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6">
-          <li><a href="/dashboard">Dashboard</a></li>
-          <li><a href="/courses">Courses</a></li>
-          <li><a href="/students">Students</a></li>
-        </ul>
+       
 
         {/* Mobile Menu Button */}
         <button

@@ -20,7 +20,7 @@ const Sidebar = () => {
   return (
     <>
       {/* Sidebar for larger screens */}
-      <aside className="hidden md:block w-64 bg-[#E4E4E4] text-[#727272] h-screen">
+      <aside className="hidden md:block w-64 bg-[#E4E4E4] text-[#727272]  h-screen">
      <div className="flex justify-center relative py-4 ">
      <img className="w-[137.84px] h-[29px]"  src={logo} alt="" />
      <img className="w-[18px] h-[18px] absolute right-[-8px] top-6 "  src={slider} alt="" />
@@ -28,68 +28,68 @@ const Sidebar = () => {
         <ul className="space-y-1 p-2">
        
           <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/dashboard" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <NavLink to="/dashboard" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-semibold text-[13px] hover:text-[#FFFFFF] ">
             <img className="text-white" src={dash} alt="" />
               Dashboard
             </NavLink>
           </li>
           
           <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/assignments" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <NavLink to="/assignments" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-semibold text-[13px] hover:text-[#FFFFFF] ">
             <img className="text-white" src={assin} alt="" />
             Assignments
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/schedule" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <NavLink to="/schedule" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-semibold text-[13px] hover:text-[#FFFFFF] ">
             <img className="text-white" src={shecduale} alt="" />
             Schedule
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/recordings" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <NavLink to="/recordings" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-semibold text-[13px] hover:text-[#FFFFFF] ">
             <img className="text-white" src={recording} alt="" />
             Recordings
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/discussions" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <NavLink to="/discussions" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-semibold text-[13px] hover:text-[#FFFFFF] ">
             <img className="text-white" src={discusion} alt="" />
             Discussions
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/resources" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <NavLink to="/resources" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-semibold text-[13px] hover:text-[#FFFFFF] ">
             <img className="text-white" src={resource} alt="" />
             Resources
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/notes" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <NavLink to="/notes" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-semibold text-[13px] hover:text-[#FFFFFF] ">
             <img className="text-white" src={note} alt="" />
             Notes
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/downloads" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <NavLink to="/downloads" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-semibold text-[13px] hover:text-[#FFFFFF] ">
             <img className="text-white" src={download} alt="" />
             Downloads
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/courses" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <NavLink to="/courses" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-semibold text-[13px] hover:text-[#FFFFFF] ">
             <img className="text-white" src={classes} alt="" />
             Classes
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/courses" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <NavLink to="/courses" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-semibold text-[13px] hover:text-[#FFFFFF] ">
             <img className="text-white" src={cource} alt="" />
             Courses
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/settings" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <NavLink to="/settings" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-semibold text-[13px] hover:text-[#FFFFFF] ">
             <img className="text-white" src={seating} alt="" />
             Settings
             </NavLink>
