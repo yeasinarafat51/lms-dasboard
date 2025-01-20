@@ -1,9 +1,11 @@
 
-
+import harsh from '../imgs/Frame 44.png'
 const Dashboard = () => (
   <div>
-    <h2 className="text-2xl font-bold">Dashboard</h2>
-    <p className="mt-4">Welcome to your LMS Dashboard!</p>
+    {/* <h2 className="text-2xl font-bold">Dashboard</h2> */}
+    <img src={harsh} alt="" />
+    <p className='text-[#85878D] font-inter text-[20px] font-semibold'>Let’s learn something new today!</p>
+   
   </div>
 );
 
