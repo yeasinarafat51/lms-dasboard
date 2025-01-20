@@ -12,6 +12,7 @@ import download from "../imgs/download.png";
 import classes from "../imgs/class.png";
 import cource from "../imgs/course.png";
 import seating from "../imgs/seating.png";
+import slider from "../imgs/Slider.png";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,8 +21,9 @@ const Sidebar = () => {
     <>
       {/* Sidebar for larger screens */}
       <aside className="hidden md:block w-64 bg-[#E4E4E4] text-[#727272] h-screen">
-     <div className="flex justify-center py-4 ">
+     <div className="flex justify-center relative py-4 ">
      <img className="w-[137.84px] h-[29px]"  src={logo} alt="" />
+     <img className="w-[18px] h-[18px] absolute right-[-8px] "  src={slider} alt="" />
      </div>
         <ul className="space-y-1 p-2">
        

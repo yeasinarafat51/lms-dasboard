@@ -1,12 +1,25 @@
 import { useState } from "react";
+import { FiSearch } from "react-icons/fi";
 
 const TopNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-600 text-white p-4">
+    <nav className="bg-white text-black p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold">LMS Dashboard</h1>
+      <div className="flex items-center bg-gray-100  p-2 w-full max-w-md">
+      {/* Search Icon */}
+      <span className="text-gray-500 px-3">
+        <FiSearch size={20} />
+      </span>
+
+      {/* Input Field */}
+      <input
+        type="text"
+        placeholder="Search..."
+        className="bg-transparent outline-none w-full px-2 text-gray-700 placeholder-gray-500"
+      />
+    </div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
