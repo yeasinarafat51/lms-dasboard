@@ -23,7 +23,7 @@ const Sidebar = () => {
       <aside className="hidden md:block w-64 bg-[#E4E4E4] text-[#727272] h-screen">
      <div className="flex justify-center relative py-4 ">
      <img className="w-[137.84px] h-[29px]"  src={logo} alt="" />
-     <img className="w-[18px] h-[18px] absolute right-[-8px] "  src={slider} alt="" />
+     <img className="w-[18px] h-[18px] absolute right-[-8px] top-6 "  src={slider} alt="" />
      </div>
         <ul className="space-y-1 p-2">
        

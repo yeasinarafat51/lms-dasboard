@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
+import icon from '../imgs/Command.png'
+import f from '../imgs/Frame 47622.png'
 
 const TopNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,18 +9,20 @@ const TopNavbar = () => {
   return (
     <nav className="bg-white text-black p-4">
       <div className="container mx-auto flex justify-between items-center">
-      <div className="flex items-center bg-gray-100  p-2 w-full max-w-md">
+      <div className="w-[335px] h-[39px] border-[#FF4B00] border-2 flex items-center rounded-md  p-2  max-w-md">
       {/* Search Icon */}
-      <span className="text-gray-500 px-3">
+      <span className=" px-3 text-[#FF4B00]">
         <FiSearch size={20} />
       </span>
 
       {/* Input Field */}
       <input
         type="text"
-        placeholder="Search..."
-        className="bg-transparent outline-none w-full px-2 text-gray-700 placeholder-gray-500"
+        placeholder="Search"
+        className=" font-Inter font-[400px] text-[13px] text-[#AFAFAF] outline-none w-full px-2  "
       />
+      <img className="pr-4" src={icon} alt="" />
+      <img src={f} alt="" />
     </div>
 
         {/* Desktop Menu */}
