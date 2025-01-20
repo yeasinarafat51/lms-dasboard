@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         "Inter":['"Inter"', "sans-serif"],
         "Roboto":['"Roboto"', "sans-serif"],
+        "Poppins":['"Poppins"', "sans-serif"],
         "Bebas Neue":['"Bebas Neue"', "sans-serif"],
       },
     },
