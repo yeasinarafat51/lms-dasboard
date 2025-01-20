@@ -2,6 +2,16 @@ import  { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../imgs/LOGO.png";
 import dash from "../imgs/Clock.png";
+import assin from "../imgs/ClipboardText.png";
+import shecduale from "../imgs/Calendar2.png";
+import recording from "../imgs/sms.png";
+import discusion from "../imgs/sms2.png";
+import resource from "../imgs/file.png";
+import note from "../imgs/NoteBlank.png";
+import download from "../imgs/download.png";
+import classes from "../imgs/class.png";
+import cource from "../imgs/course.png";
+import seating from "../imgs/seating.png";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,63 +31,64 @@ const Sidebar = () => {
               Dashboard
             </NavLink>
           </li>
-          <li className="w-[195px] h-[37px] p-2 ">
-            <NavLink to="/dashboard" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
-            <img className="text-white" src={dash} alt="" />
-              Dashboard
-            </NavLink>
-          </li>
+          
           <li className="w-[195px] h-[37px] p-2 ">
             <NavLink to="/assignments" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
-            <img className="text-white" src={dash} alt="" />
+            <img className="text-white" src={assin} alt="" />
             Assignments
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
+            <NavLink to="/schedule" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
+            <img className="text-white" src={shecduale} alt="" />
+            Schedule
+            </NavLink>
+          </li>
+          <li className="w-[195px] h-[37px] p-2 ">
             <NavLink to="/recordings" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
-            <img className="text-white" src={dash} alt="" />
+            <img className="text-white" src={recording} alt="" />
             Recordings
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
             <NavLink to="/discussions" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
-            <img className="text-white" src={dash} alt="" />
+            <img className="text-white" src={discusion} alt="" />
             Discussions
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
             <NavLink to="/resources" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
-            <img className="text-white" src={dash} alt="" />
+            <img className="text-white" src={resource} alt="" />
             Resources
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
             <NavLink to="/notes" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
-            <img className="text-white" src={dash} alt="" />
+            <img className="text-white" src={note} alt="" />
             Notes
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
             <NavLink to="/downloads" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
-            <img className="text-white" src={dash} alt="" />
+            <img className="text-white" src={download} alt="" />
             Downloads
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
             <NavLink to="/courses" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
-            <img className="text-white" src={dash} alt="" />
+            <img className="text-white" src={classes} alt="" />
             Classes
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
             <NavLink to="/courses" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
-            <img className="text-white" src={dash} alt="" />
+            <img className="text-white" src={cource} alt="" />
             Courses
             </NavLink>
           </li>
           <li className="w-[195px] h-[37px] p-2 ">
             <NavLink to="/settings" className="flex gap-2 py-2 px-4 hover:bg-[#FF4B00] font-Inter font-[500px] text-[13px] hover:text-[#FFFFFF] ">
-            <img className="text-white" src={dash} alt="" />
+            <img className="text-white" src={seating} alt="" />
             Settings
             </NavLink>
           </li>
