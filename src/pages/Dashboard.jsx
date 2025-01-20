@@ -1,4 +1,6 @@
 
+import Enrolled from '../components/Enrolled';
+import Resources from '../components/Resources';
 import harsh from '../imgs/Frame 44.png'
 const Dashboard = () => (
   <div>
@@ -6,6 +8,8 @@ const Dashboard = () => (
     <img src={harsh} alt="" />
     <p className='text-[#85878D] font-inter text-[20px] font-semibold'>Let’s learn something new today!</p>
    
+   <Enrolled/>
+   <Resources/>
   </div>
 );
 
