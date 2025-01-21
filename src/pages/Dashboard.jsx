@@ -2,6 +2,7 @@
 import Classes from '../components/Classes';
 import MyApp from '../components/Cleandar';
 import Enrolled from '../components/Enrolled';
+import Perpromance from '../components/Perpromance';
 import Resources from '../components/Resources';
 import Upcoming from '../components/Upcoming';
 import harsh from '../imgs/Frame 44.png'
@@ -16,6 +17,7 @@ const Dashboard = () => (
    {/* <MyApp/> */}
    <Classes/>
    <Upcoming/>
+   <Perpromance/>
   </div>
 );
 
