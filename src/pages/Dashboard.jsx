@@ -4,6 +4,7 @@ import MyApp from '../components/Cleandar';
 import Enrolled from '../components/Enrolled';
 import Perpromance from '../components/Perpromance';
 import Resources from '../components/Resources';
+import Todo from '../components/Todo';
 import Upcoming from '../components/Upcoming';
 import harsh from '../imgs/Frame 44.png'
 const Dashboard = () => (
@@ -18,6 +19,7 @@ const Dashboard = () => (
    <Classes/>
    <Upcoming/>
    <Perpromance/>
+   <Todo/>
   </div>
 );
 
