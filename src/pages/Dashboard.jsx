@@ -1,4 +1,5 @@
 
+import MyApp from '../components/Cleandar';
 import Enrolled from '../components/Enrolled';
 import Resources from '../components/Resources';
 import harsh from '../imgs/Frame 44.png'
@@ -10,6 +11,7 @@ const Dashboard = () => (
    
    <Enrolled/>
    <Resources/>
+   <MyApp/>
   </div>
 );
 
