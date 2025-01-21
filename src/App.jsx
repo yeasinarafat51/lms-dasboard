@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TopNavbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Dashboard from "./pages/Dashboard";
+import Assignments from "./pages/Assignments";
 
 const App = () => (
   <Router>
@@ -14,6 +15,7 @@ const App = () => (
       <div className="p-4 overflow-auto">
         <Routes>
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/assignments" element={<Assignments/>} />
           {/* <Route path="/courses" element={<Courses />} />
           <Route path="/students" element={<Students />} />
           <Route path="/profile" element={<Profile />} />
