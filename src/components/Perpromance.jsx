@@ -9,6 +9,7 @@ const Perpromance = () => {
     {/* Content Section */}
     <h2 className="text-[15px] pb-2  font-inter font-bold text-gray-800">Performance</h2>
     <img className='m-auto w-[204px] h-[216px]' src={clock} alt="" />
+    
    
   </div>
   )
