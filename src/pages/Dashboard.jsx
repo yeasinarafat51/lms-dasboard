@@ -1,4 +1,5 @@
 
+import Classes from '../components/Classes';
 import MyApp from '../components/Cleandar';
 import Enrolled from '../components/Enrolled';
 import Resources from '../components/Resources';
@@ -11,7 +12,8 @@ const Dashboard = () => (
    
    <Enrolled/>
    <Resources/>
-   <MyApp/>
+   {/* <MyApp/> */}
+   <Classes/>
   </div>
 );
 
