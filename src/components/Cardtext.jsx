@@ -13,16 +13,16 @@ const Cardtext = () => {
     <div  className="">
              <div  className=" w-[320px] h-[204px] shadow-md rounded-md py-2 "> 
             <div>
-            <div className="flex gap-3 items-center px-4 ">
+            <div className="flex gap-3 items-center py-2 px-4 ">
                   <Button1 button1="Weekly"/>
                   <Button1 button1="Product"/>
                   </div>
                  
                   <Title title="Product Team Meeting"/>
                   
-                  <Headline headline="This monthly progress agenda is following this items:"/>
+                  <Headline headline="Some Summaries of this weeks meeting with some conclusion we get :"/>
                  
-                  <div className="flex justify-between items-center  mt-15  border-t-2 px-4 h-[47px]">
+                  <div className="flex justify-between items-center  mt-10  border-t-2 px-4 h-[47px]">
                     
                     <Profile pic= '/man1.png' name="Floyd Miles" date="Mar 5 04:25" />
                   </div>

@@ -13,7 +13,7 @@ const Card = () => {
     <div  className="">
              <div  className=" w-[320px] h-[204px] shadow-md rounded-md py-2 "> 
             <div>
-            <div className="flex gap-3 items-center px-4 ">
+            <div className="flex gap-3 items-center px-4 py-2 ">
                   <Button1 button1="Weekly"/>
                   <Button1 button1="Product"/>
                   </div>
@@ -22,7 +22,7 @@ const Card = () => {
                  
                   <Headline headline="This monthly progress agenda is following this items:"/>
                   
-                  <Discription dis="Introduction to Newest Product Plan" dis1="Monthly Revenue updates for each products"/>
+                  <Discription dis="Introduction to Newest Product Plan" dis1="Monthly Revenue updates for each "/>
                  
                   <div className="flex justify-between items-center  pb-0  border-t-2 px-4 h-[47px]">
                     
