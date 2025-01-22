@@ -6,21 +6,21 @@ import Headline from "../common/Headline";
 import Profile from "../common/Profile";
 import Title from "../common/Title";
 
-const Cardpic = () => {
+const Cardpic1 = () => {
   return (
     <div className="">
       <div className=" w-[320px] h-[204px] shadow-md rounded-md py-2 ">
         <div>
           <div className="flex gap-3 items-center px-4 py-2 ">
-            <Button1 button1="Personal" />
+            <Button1 button1="Business" />
           </div>
 
-          <Title title="Document Images" />
+          <Title title="Revenue Progress" />
 
-          <Headline headline="Report Document of Weekly Meetings" />
+         
 
           <img
-            className="w-[310px] h-[57px] flex px-4"
+            className="w-[310px] h-[77px] flex px-4"
             src="/img3.png"
             alt=""
           />
@@ -34,4 +34,4 @@ const Cardpic = () => {
   );
 };
 
-export default Cardpic;
+export default Cardpic1;
