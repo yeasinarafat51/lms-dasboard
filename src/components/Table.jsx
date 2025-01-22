@@ -16,7 +16,7 @@ import {
   IconButton,
   Tooltip,
 } from "@material-tailwind/react";
- 
+
 const TABS = [
   {
     label: "All",
@@ -31,9 +31,9 @@ const TABS = [
     value: "unmonitored",
   },
 ];
- 
+
 const TABLE_HEAD = ["Member", "Function", "Status", "Employed", ""];
- 
+
 const TABLE_ROWS = [
   {
     img: "https://demos.creative-tim.com/test/corporate-ui-dashboard/assets/img/team-3.jpg",
@@ -81,7 +81,7 @@ const TABLE_ROWS = [
     date: "04/10/21",
   },
 ];
- 
+
 export function MembersTable() {
   return (
     <Card className="h-full w-full">
@@ -149,7 +149,7 @@ export function MembersTable() {
                 const classes = isLast
                   ? "p-4"
                   : "p-4 border-b border-blue-gray-50";
- 
+
                 return (
                   <tr key={name}>
                     <td className={classes}>
@@ -219,7 +219,7 @@ export function MembersTable() {
                     </td>
                   </tr>
                 );
-              },
+              }
             )}
           </tbody>
         </table>

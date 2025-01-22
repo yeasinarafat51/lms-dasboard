@@ -38,7 +38,7 @@ const Resources = () => {
         <div className="w-[364px]">
           <div className="flex justify-between">
             <p className="text-[10px] font-semibold font-Poppins">
-            Design_Tips.png
+              Design_Tips.png
             </p>
             <p className="text-[10px] font-semibold font-Poppins">578 kb</p>
             <p className="text-[10px] font-semibold font-Poppins text-[#FF4B00]">
@@ -46,7 +46,9 @@ const Resources = () => {
             </p>
           </div>
           <div className="w-[318px] h-[5px] rounded-full pb-2 mb-2">
-            <p className="text-[6px] font-semibold font-Poppins text-[#85878D]">Let&lsquo;s qucikly create some realstic and shiny metal @figma</p>
+            <p className="text-[6px] font-semibold font-Poppins text-[#85878D]">
+              Let&lsquo;s qucikly create some realstic and shiny metal @figma
+            </p>
           </div>
         </div>
       </div>
@@ -57,7 +59,7 @@ const Resources = () => {
         <div className="w-[364px]">
           <div className="flex justify-between">
             <p className="text-[10px] font-semibold font-Poppins">
-            Basics_Of_UX.fig
+              Basics_Of_UX.fig
             </p>
             <p className="text-[10px] font-semibold font-Poppins">2.5 mb</p>
             <p className="text-[10px] font-semibold font-Poppins text-[#FF4B00]">
@@ -65,11 +67,14 @@ const Resources = () => {
             </p>
           </div>
           <div className="w-[318px] h-[5px] rounded-full pb-2 mb-2">
-            <p className="text-[6px] font-semibold font-Poppins text-[#85878D]">An introductory guide to the fundamental principles and practices of User Experience (UX) design.</p>
+            <p className="text-[6px] font-semibold font-Poppins text-[#85878D]">
+              An introductory guide to the fundamental principles and practices
+              of User Experience (UX) design.
+            </p>
           </div>
         </div>
       </div>
-     
+
       {/* Content Section */}
     </div>
   );
