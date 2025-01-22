@@ -1,5 +1,7 @@
 
-import Card from '../components/Card';
+
+
+import Cards from '../components/Cards';
 import funnel from '../imgs/FunnelSimple.png'
 import fill from '../imgs/fil.png'
 import { FaPlus } from "react-icons/fa6";
@@ -14,7 +16,7 @@ const Notes = () => {
         <button className='flex items-center gap-2 border-2 border-[#FF4B00] bg-[#FF4B00] rounded-md py-2 px-3 text-white'><FaPlus /> <p className=' text-[14px] font-inter font-semibold'>Add Notes</p></button>
       </div>
     </div>
-    <Card/>
+    <Cards/>
    </div>
   )
 }

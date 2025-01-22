@@ -7,7 +7,7 @@ import Profile from "../common/Profile"
 import Title from "../common/Title"
 
 
-const Card = () => {
+const Cardpic = () => {
    
   return (
     <div  className="">
@@ -23,7 +23,8 @@ const Card = () => {
                   <Headline headline="This monthly progress agenda is following this items:"/>
                   {/* <li className="text-[13px] font-inter font-semibold text-[#727272] px-4">{card.para}</li>
                   <li className="text-[13px] font-inter font-semibold text-[#727272] px-4">{card.para1}</li> */}
-                  <Discription dis="Introduction to Newest Product Plan" dis1="Monthly Revenue updates for each products"/>
+                  {/* <Discription dis="Introduction to Newest Product Plan" dis1="Monthly Revenue updates for each products"/> */}
+                  <img className="w-[310px] h-[40px] flex px-4" src='/img3.png' alt="" />
                   {/* <img className="h-[40px] " src={card.imges} alt="" /> */}
                   <div className="flex justify-between items-center  pb-0  border-t-2 px-4 h-[47px]">
                     {/* <div className="flex items-center gap-2">
@@ -40,4 +41,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default Cardpic
