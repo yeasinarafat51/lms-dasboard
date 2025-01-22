@@ -1,16 +1,12 @@
-import 'react-calendar/dist/Calendar.css';
-import { useState } from 'react';
-import Calendar from 'react-calendar';
+import cleander from '../imgs/Calendar.png'
 
-
-
-function MyApp() {
-  const [value, onChange] = useState(new Date());
-
+const Cleandar = () => {
   return (
-    <div className='w-[185px] h-[188px]'>
-      <Calendar onChange={onChange} value={value} />
+    <div className='w-[185px] h-[188px] shadow-xl rounded-md'>
+      <img src={cleander} alt="" />
+      
     </div>
-  );
+  )
 }
-export default MyApp
+
+export default Cleandar

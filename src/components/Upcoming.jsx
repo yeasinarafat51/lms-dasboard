@@ -3,7 +3,7 @@ import vect1 from '../imgs/vff.png'
 
 const Upcoming = () => {
   return (
-    <div className="w-[422px] h-[303px] bg-white rounded-lg shadow-md overflow-hidden p-3 space-y-5">
+    <div className="w-[422px] h-[303px] bg-white rounded-lg shadow-xl overflow-hidden p-3 space-y-5">
      <p className="font-inter text-[19px] font-semibold ">
      Upcoming Lesson
         </p>

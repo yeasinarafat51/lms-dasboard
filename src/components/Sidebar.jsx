@@ -110,7 +110,7 @@ const Sidebar = () => {
 
       {/* Collapsible Sidebar */}
       {isOpen && (
-        <aside className="absolute top-0 left-0 w-64 bg-gray-800 text-white h-screen z-50">
+        <aside className="absolute top-0 left-0 w-64 bg-[#E4E4E4] text-black hover:text-white h-screen z-50">
           <ul className="space-y-4 p-4">
             <li>
               <NavLink
@@ -123,29 +123,83 @@ const Sidebar = () => {
             </li>
             <li>
               <NavLink
+                to="/ assignments"
+                className="block py-2 px-4 rounded hover:bg-gray-700"
+                onClick={() => setIsOpen(false)}
+              >
+                 Assignments
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/ schedule"
+                className="block py-2 px-4 rounded hover:bg-gray-700"
+                onClick={() => setIsOpen(false)}
+              >
+                Schedule
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/ recordings"
+                className="block py-2 px-4 rounded hover:bg-gray-700"
+                onClick={() => setIsOpen(false)}
+              >
+                Recordings
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/  discussions"
+                className="block py-2 px-4 rounded hover:bg-gray-700"
+                onClick={() => setIsOpen(false)}
+              >
+                Discussions
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/ resources"
+                className="block py-2 px-4 rounded hover:bg-gray-700"
+                onClick={() => setIsOpen(false)}
+              >
+                 Resources
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/notes"
+                className="block py-2 px-4 rounded hover:bg-gray-700"
+                onClick={() => setIsOpen(false)}
+              >
+                Notes
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/downloads"
+                className="block py-2 px-4 rounded hover:bg-gray-700"
+                onClick={() => setIsOpen(false)}
+              >
+               Downloads
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/classes"
+                className="block py-2 px-4 rounded hover:bg-gray-700"
+                onClick={() => setIsOpen(false)}
+              >
+               Classes
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to="/courses"
                 className="block py-2 px-4 rounded hover:bg-gray-700"
                 onClick={() => setIsOpen(false)}
               >
-                Courses
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/students"
-                className="block py-2 px-4 rounded hover:bg-gray-700"
-                onClick={() => setIsOpen(false)}
-              >
-                Students
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/profile"
-                className="block py-2 px-4 rounded hover:bg-gray-700"
-                onClick={() => setIsOpen(false)}
-              >
-                Profile
+               Courses
               </NavLink>
             </li>
             <li>

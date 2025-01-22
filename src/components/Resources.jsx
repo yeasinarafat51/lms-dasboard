@@ -3,7 +3,7 @@ import basic from "../imgs/Group 1237.png";
 import desin from "../imgs/Group 1236.png";
 const Resources = () => {
   return (
-    <div className="w-[449px] h-[188px] bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="w-[449px] h-[188px] bg-white rounded-lg shadow-xl overflow-hidden">
       <h2 className="text-[15px] m-4 font-inter font-semibold text-gray-800">
         Your Resources
       </h2>

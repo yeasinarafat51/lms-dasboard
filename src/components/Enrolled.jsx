@@ -2,7 +2,7 @@ import colum from '../imgs/Frame 1000001916.png'
 
 const Enrolled = () => {
   return (
-    <div className="w-[257px] h-[188px] bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="w-[257px] h-[188px] bg-white rounded-lg shadow-xl overflow-hidden">
     {/* Image Section */}
    
 

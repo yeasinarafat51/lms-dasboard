@@ -15,13 +15,11 @@ const App = () => (
       <TopNavbar />
       <div className="p-4 overflow-auto">
         <Routes>
+          <Route path="/" element={<Dashboard />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/assignments" element={<Assignments/>} />
           <Route path="/notes" element={<Notes/>} />
-          {/* <Route path="/courses" element={<Courses />} />
-          <Route path="/students" element={<Students />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/settings" element={<Settings />} /> */}
+         
         </Routes>
       </div>
     </div>

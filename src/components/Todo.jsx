@@ -5,7 +5,7 @@ import checkbox from '../imgs/Rectangle 119 (3).png'
 import { ImCheckboxChecked } from "react-icons/im";
 const Todo = () => {
   return (
-    <div className="w-[289px] h-[273px] p-3 bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="w-[289px] h-[273px] p-3 bg-white rounded-lg shadow-xl overflow-hidden">
     {/* Image Section */}
    
 

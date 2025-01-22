@@ -7,7 +7,7 @@ import vector from '../imgs/Vector (5).png'
 import vector1 from '../imgs/Vector (6).png'
 const Classes = () => {
   return (
-    <div className="w-[525px] h-[303px] bg-white rounded-lg shadow-md overflow-hidden p-3 space-y-5">
+    <div className="w-[525px] h-[303px] bg-white rounded-lg shadow-xl overflow-hidden p-3 space-y-5">
     <div className='flex justify-between mx-auto w-[475px] pt-4'>
         <p className="font-inter text-[19px] font-semibold ">
         Recent enrolled classes
