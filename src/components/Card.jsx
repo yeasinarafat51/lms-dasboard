@@ -18,13 +18,56 @@ const Card = () => {
 
            
           },
+        {
+            button1: "Weekly",
+            button2: "Product",
+            title: "Product Team Meeting",
+            dis:"This monthly progress agenda is following this items:",
+            para: "Introduction to Newest Product Plan",
+            para1: "Monthly Revenue updates for each products",
+            pic: '/man1.png',
+            name: "Floyd Miles",
+            date:"Mar 5 04:25"
+
+
+           
+          },
+        {
+            button1: "Weekly",
+            button2: "Product",
+            title: "Product Team Meeting",
+            dis:"This monthly progress agenda is following this items:",
+            para: "Introduction to Newest Product Plan",
+            para1: "Monthly Revenue updates for each products",
+            pic: '/man1.png',
+            name: "Floyd Miles",
+            date:"Mar 5 04:25"
+
+
+           
+          },
+        {
+            button1: "Weekly",
+            button2: "Product",
+            title: "Product Team Meeting",
+            dis:"This monthly progress agenda is following this items:",
+           
+            pic: '/man1.png',
+            imges:'/img3.png',
+            name: "Floyd Miles",
+            date:"Mar 5 04:25"
+
+
+           
+          },
     ]
   return (
-    <div>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         {cards.map((card, index)=>(
-            <div key={index} className="w-[320px] h-[204px] shadow-md rounded-md"> 
+           <div key={index} className="">
+             <div  className=" w-[320px] h-[204px] shadow-md rounded-md py-2 "> 
             <div>
-            <div className="flex gap-3 items-center p-4">
+            <div className="flex gap-3 items-center px-4 ">
                     <Button
                       className={`flex  items-center justify-center px-2 py-1 rounded-md text-sm font-medium ${
                         card.button1 === "Weekly"
@@ -50,11 +93,11 @@ const Card = () => {
                       {card.button2}
                     </Button>
                   </div>
-                  <p className="text-[15px] font-inter font-bold">{card.title}</p>
-                  <p className="text-[13px] font-inter font-semibold text-[#727272]">{card.dis}</p>
-                  <li className="text-[13px] font-inter font-semibold text-[#727272]">{card.para}</li>
-                  <li className="text-[13px] font-inter font-semibold text-[#727272]">{card.para1}</li>
-                  <div className="flex justify-between">
+                  <p className="text-[15px] font-inter font-bold px-4">{card.title}</p>
+                  <p className="text-[13px] font-inter font-semibold text-[#727272] px-4">{card.dis}</p>
+                  {card.para & card.para1 == }
+                  {/* <img className="h-[40px] " src={card.imges} alt="" /> */}
+                  <div className="flex justify-between items-center  pb-0  border-t-2 px-4 h-[47px]">
                     <div className="flex items-center gap-2">
                         <img className="w-[17px] h-[17px] rounded-full" src={card.pic} alt="" />
                         <p className="text-[15px] font-inter font-bold">{card.name}</p>
@@ -64,6 +107,7 @@ const Card = () => {
                   </div>
             </div>
           </div>
+           </div>
         ))}
     </div>
   )
