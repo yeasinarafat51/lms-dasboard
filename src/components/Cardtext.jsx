@@ -7,7 +7,7 @@ import Profile from "../common/Profile"
 import Title from "../common/Title"
 
 
-const Card = () => {
+const Cardtext = () => {
    
   return (
     <div  className="">
@@ -17,14 +17,12 @@ const Card = () => {
                   <Button1 button1="Weekly"/>
                   <Button1 button1="Product"/>
                   </div>
-                  
+                 
                   <Title title="Product Team Meeting"/>
-                 
-                  <Headline headline="This monthly progress agenda is following this items:"/>
                   
-                  <Discription dis="Introduction to Newest Product Plan" dis1="Monthly Revenue updates for each products"/>
+                  <Headline headline="This monthly progress agenda is following this items:"/>
                  
-                  <div className="flex justify-between items-center  pb-0  border-t-2 px-4 h-[47px]">
+                  <div className="flex justify-between items-center  mt-15  border-t-2 px-4 h-[47px]">
                     
                     <Profile pic= '/man1.png' name="Floyd Miles" date="Mar 5 04:25" />
                   </div>
@@ -34,4 +32,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default Cardtext
